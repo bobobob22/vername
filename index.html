@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+
+    <div class="main">
+        <p class="main-characters">Znaki domyslne: </p>
+        <p><span class="legend">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</span></p>
+        <label>Wpisz wiadomość:</label>
+        <input type="text" id="message">
+
+        <div class="buttons">
+            <button type="button" class="generate btn">Koduj</button>
+            <button type="button" class="uncode-btn btn">Odkoduj</button>
+        </div>
+
+        <p>Sekretny klucz: <span class="sekret-key"></span></p>
+        <p>Wygenerowana wiadomość <span class="generated-message"></span></p>
+        <p class="result">Wiadomość po odkodowaniu <span class="uncoded-message"></span></p>
+    </div>
+
+    <div class="changes">
+        Początkowe wartości:
+        <div class="start-values"></div>
+        Zmienione wartości:
+        <div class="result-values"></div>
+    </div>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
