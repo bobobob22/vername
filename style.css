@@ -22,7 +22,23 @@
 }
 
 .legend {
+    background: #c4c4c4;
+    padding: 10px;
     letter-spacing: 4px;
+    margin: 10px 0;
+    display: block;
+}
+
+p.secret {
+    margin: 20px 0;
+}
+
+.sekret-key {
+    background: #c4c4c4;
+    padding: 10px;
+    letter-spacing: 4px;
+    margin: 10px 0;
+    text-transform: uppercase;
 }
 
 .changes {
@@ -30,6 +46,7 @@
     padding: 30px;
     width: 50%;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .result {
@@ -53,4 +70,25 @@
 
 .start-values p, .result-values p {
     margin: 0;
+}
+
+
+.legend-table {
+    margin-bottom: 10px;
+}
+
+.legend-table td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #000;
+
+}
+
+.legend-table td:nth-of-type(even) {
+    background: #c1c1c1;
+}
+
+.legend-table td:nth-of-type(odd) {
+    background: #000;
+    color: #fff;
 }
